@@ -1,0 +1,32 @@
+.main-nav {
+  background-color: #222;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  &--vertical {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.menu__link {
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  color: var(--white-color);
+  text-decoration: none;
+  letter-spacing: 5px;
+  line-height: 4rem;
+  display: inline-block;
+
+  &--primary {
+    color: var(--primary-color);
+  }
+}

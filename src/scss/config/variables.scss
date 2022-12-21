@@ -1,0 +1,38 @@
+:root {
+  /* Colores */
+  --default-color: #e0e0e0;
+  --default-color-text: #3f3f3f;
+  --default-color-hover: #aeaeae;
+  --primary-color: #3d5afe;
+  --primary-color-hover: #0039cb;
+  --ghost-color-hover: #2962ff1a;
+  --secondary-color: #455a64;
+  --secondary-color-hover: #1c313a;
+  --danger-color: #d32f2f;
+  --danger-color-hover: #9a0007;
+  --white-color: #fff;
+
+  /* Font sizes titles */
+  --title-xs: 0.5rem;
+  --title-s: 0.8rem;
+  --title-m: 1rem;
+  --title-l: 1.5rem;
+  --title-xl: 3rem;
+  --title-xxl: 6rem;
+
+  /* Font sizes texts */
+  --text-xs: 0.4rem;
+  --text-s: 0.8rem;
+  --text-m: 1.2rem;
+  --text-l: 1.8rem;
+  --text-xl: 2.5rem;
+  --text-xxl: 3rem;
+
+  /* Border radius */
+  --radius-s: 0.375rem;
+  --radius-m: 0.5rem;
+  --radius-l: 0.75rem;
+  --radius-xl: 1rem;
+}
+
+/* Variables SASS */

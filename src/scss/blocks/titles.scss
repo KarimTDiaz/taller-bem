@@ -1,0 +1,43 @@
+@use '../mixins/hover.scss' as*;
+
+.title {
+  font-size: 1rem;
+  margin: 1rem 0;
+
+  &--xs {
+    font-size: var(--title-xs);
+  }
+
+  &--s {
+    font-size: var(--title-s);
+  }
+
+  &--m {
+    font-size: var(--title-m);
+  }
+
+  &--l {
+    font-size: var(--title-l);
+  }
+
+  &--xl {
+    font-size: var(--title-xl);
+  }
+
+  &--xxl {
+    font-size: var(--title-xxl);
+  }
+
+  &--primary {
+    color: var(--primary-color);
+  }
+
+  &--secondary {
+    color: var(--secondary-color);
+  }
+
+  &--danger {
+    color: var(--danger-color);
+  }
+
+}
